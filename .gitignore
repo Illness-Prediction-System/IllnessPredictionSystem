@@ -1,0 +1,82 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Data files
+data/
+
+# Database credentials and connection files
+src/database
+
+# If your database connection config is in src/database/
+*.env
+.env.local
+.env.*.local
+
+# Database dumps and backups
+*.dump
+*.backup
+*.sql
+!schema.sql
+
+# PostgreSQL specific
+postgres_data/
+pgdata/
+postgresql/
+*.pid
+*.lock
+
+# Connection strings or config files
+config/
+config.yaml
+config.yml
+config.json
+secrets/
+credentials/
+
+# Unit test / coverage reports
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Python cache
+.python-version
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
