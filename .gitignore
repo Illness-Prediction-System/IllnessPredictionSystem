@@ -38,9 +38,6 @@ logs/
 # Data files
 data/
 
-# Database credentials and connection files
-src/database
-
 # If your database connection config is in src/database/
 *.env
 .env.local
