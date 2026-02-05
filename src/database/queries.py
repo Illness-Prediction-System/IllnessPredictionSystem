@@ -121,6 +121,10 @@ def get_table_row_count(table_name: str) -> Optional[int]:
     except Error as e:
         print(f"Error getting row count: {e}")
         return None
+    
+def get_table(name: str):
+    return execute_query_pandas(f"SELECT * FROM {name}")
+
 
 if __name__ == "__main__":  
     if test_connection():
