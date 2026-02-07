@@ -1,7 +1,0 @@
-<RCC>
-  <qresource prefix="resources">
-    <file>images/profile.png</file>
-    <file>images/symptoms.png</file>
-    <file>images/result.png</file>
-  </qresource>
-</RCC>
