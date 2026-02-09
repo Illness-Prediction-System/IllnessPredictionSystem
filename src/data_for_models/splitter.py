@@ -8,7 +8,7 @@ from imblearn.over_sampling import RandomOverSampler
 
 def prepare_data(df: pd.DataFrame, target_column: str, oversample: bool = False, random_state: int = 15):
     class_counts = df[target_column].value_counts()
-    classes_to_keep = class_counts[class_counts >= 7].index
+    classes_to_keep = class_counts[class_counts >= 10].index
     df = df[df[target_column].isin(classes_to_keep)].copy()
 
     le = LabelEncoder()
@@ -20,7 +20,7 @@ def prepare_data(df: pd.DataFrame, target_column: str, oversample: bool = False,
     X = df.drop(columns=[target_column])
     y = df[target_column]
 
-    X_train, X_temp, y_train, y_temp = train_test_split(X, y, test_size=0.30, random_state=random_state, stratify=y)
+    X_train, X_temp, y_train, y_temp = train_test_split(X, y, test_size=0.20, random_state=random_state, stratify=y)
     X_val, X_test, y_val, y_test = train_test_split(X_temp, y_temp, test_size=0.50, random_state=random_state, stratify=y_temp)
 
     if oversample:
@@ -31,9 +31,9 @@ def prepare_data(df: pd.DataFrame, target_column: str, oversample: bool = False,
 def scale_data(X_train, X_val, X_test):
     scaler = StandardScaler()
 
-    X_train_scaled = scaler.fit_transform(X_train)
-    X_val_scaled = scaler.transform(X_val)
-    X_test_scaled = scaler.transform(X_test)
+    X_train_scaled = scaler.fit_transform(X_train).astype('float32')
+    X_val_scaled = scaler.transform(X_val).astype('float32')
+    X_test_scaled = scaler.transform(X_test).astype('float32')
     base_path = Path(__file__).resolve().parent.parent
     model_path = base_path / "models"
     joblib.dump(scaler, model_path / "scaler.joblib")
