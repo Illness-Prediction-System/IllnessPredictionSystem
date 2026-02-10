@@ -16,6 +16,32 @@ requirement_label = None
 symptoms_status_label = None
 
 selected_category = "All"
+is_updating = False
+
+def get_opposite_sex_symptoms_list():
+    current_sex = current_profile.sex
+    
+    if current_sex == "Male":
+        return symptoms.contents.get("Female reproduction", [])
+    else:
+        return symptoms.contents.get("Male reproduction", [])
+
+def get_filtered_symptoms(category="All"):
+    excluded_symptoms = set(get_opposite_sex_symptoms_list())
+    
+    if category == "All":
+        all_filtered = []
+        seen = set()
+        
+        for cat, symptom_list in symptoms.contents.items():
+            for symptom in symptom_list:
+                if symptom not in excluded_symptoms and symptom not in seen:
+                    seen.add(symptom)
+                    all_filtered.append(symptom)
+        return all_filtered
+    else:
+        category_symptoms = symptoms.contents.get(category, [])
+        return [symptom for symptom in category_symptoms if symptom not in excluded_symptoms]
 
 def update_status(value):
     results_button.setEnabled(value)
@@ -40,19 +66,34 @@ def save_symptoms():
     symptoms_window.hide()
     update_status(True)
 
-def search_symptoms_list(search_text):
-    symptoms_list.clear()
+def update_symptoms_display():
+    global is_updating
     
-    for symptom in symptoms.contents[selected_category]:
-        if search_text.lower() in symptom.lower():
-            symptoms_list.addItem(symptom)
+    if is_updating:
+        return
+    
+    is_updating = True
+    
+    try:
+        symptoms_list.clear()
+        
+        filtered_symptoms = get_filtered_symptoms(selected_category)
+        
+        search_text = search_line_edit.text().lower() if search_line_edit else ""
+        
+        for symptom in filtered_symptoms:
+            if not search_text or search_text in symptom.lower():
+                symptoms_list.addItem(symptom)
+    finally:
+        is_updating = False
+
+def search_symptoms_list(search_text):
+    update_symptoms_display()
 
 def filter_symptoms_list(item):
     global selected_category
     selected_category = item.text()
-    
-    symptoms_list.clear()
-    symptoms_list.addItems(symptoms.contents[selected_category])
+    update_symptoms_display()
 
 def insert_symptom(item):
     if selected_list.findItems(item.text(), QtCore.Qt.MatchFlag.MatchExactly):
@@ -79,20 +120,12 @@ def remove_symptom(item):
 def populate_categories_list(sex):
     categories_list.clear()
 
-    categories_list.addItems(symptoms.contents)
-
-    item = None
-
-    if sex=="Male":
-        item = categories_list.findItems("Female reproduction", QtCore.Qt.MatchFlag.MatchExactly)
-    else:
-        item = categories_list.findItems("Male reproduction", QtCore.Qt.MatchFlag.MatchExactly)
-
-    row = categories_list.row(item[0])
-    categories_list.takeItem(row)
-
-def populate_symptoms_list():
-    symptoms_list.addItems(symptoms.contents["All"])
+    for category in symptoms.contents.keys():
+        if sex == "Male" and category == "Female reproduction":
+            continue
+        elif sex == "Female" and category == "Male reproduction":
+            continue
+        categories_list.addItem(category)
 
 def setup_symptoms_window():
     global categories_list, symptoms_list, selected_list, confirm_button, search_line_edit, progress_bar, requirement_label
@@ -106,6 +139,15 @@ def setup_symptoms_window():
 
     confirm_button.setEnabled(False)
 
+    try:
+        categories_list.itemActivated.disconnect()
+    except:
+        pass
+    try:
+        search_line_edit.textChanged.disconnect()
+    except:
+        pass
+
     categories_list.itemActivated.connect(filter_symptoms_list)
     symptoms_list.itemActivated.connect(insert_symptom)
     selected_list.itemActivated.connect(remove_symptom)
@@ -113,7 +155,7 @@ def setup_symptoms_window():
     confirm_button.clicked.connect(save_symptoms)
 
     populate_categories_list(current_profile.sex)
-    populate_symptoms_list()
+    update_symptoms_display()
 
 def create_symptoms_window(button=None, status=None):
     global symptoms_window, results_button, symptoms_status_label

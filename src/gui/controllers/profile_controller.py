@@ -20,25 +20,37 @@ def update_status(value):
     else:
         profile_status_label.setStyleSheet("color: blue;")
 
+def validate_name(qwidget):
+    if qwidget.text() == "":
+        return False
+    elif any(char.isdigit() for char in qwidget.text()):
+        return False
+    else:
+        return True
+
+def validate_age(qwidget):
+    if qwidget.text() == "":
+        return False
+    elif not (qwidget.text().isdigit() and int(qwidget.text()) >= 0):
+        return False
+    else:
+        return True
+
 def save_profile():
     symptoms_button.setEnabled(False)
 
-    if first_name_line.text() == "" or last_name_line.text() == "":
+    if not (validate_name(first_name_line) and validate_name(last_name_line)):
         requirement_label.setText("Please enter your full name.")
         update_status(False)
         return
 
-    if age_line.text() == "":
+    if not validate_age(age_line):
         requirement_label.setText("Please enter your age.")
         update_status(False)
         return
 
-    if not (age_line.text().isdigit() and int(age_line.text()) >= 0):
-        requirement_label.setText("Age must be an integer.")
-        update_status(False)
-        return
-
     requirement_label.setText("Profile has been created")
+    sex_combobox.setEnabled(False)
     profile_window.hide()
 
     current_profile.first_name = first_name_line.text()
