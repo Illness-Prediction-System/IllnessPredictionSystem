@@ -1,8 +1,8 @@
-import joblib
+import joblib, json
 
 from sklearn.linear_model import LogisticRegression
-
 from sklearn.metrics import accuracy_score, f1_score, top_k_accuracy_score
+from pathlib import Path
 
 class LogisticRegressionModel:
 
@@ -36,8 +36,23 @@ class LogisticRegressionModel:
     def load_model(self, file_path: str):
         self.model = joblib.load(file_path)
 
-    def predict_top_5(self, X):
+    def predict_top_5(self, X, gender='both'):
         probabilities = self.model.predict_proba(X)[0]
-        top_5_indices = probabilities.argsort()[-5:][::-1]
         classes = self.model.classes_
-        return [(classes[i], probabilities[i]) for i in top_5_indices]
+        
+        mapping_path = Path("data/mappings/label_mapping_gender.json")
+        with open(mapping_path, 'r', encoding='utf-8') as f:
+            gender_mapping = json.load(f)
+
+        filtered_results = []
+        
+        for i, prob in enumerate(probabilities):
+            class_name = classes[i]
+            target_gender = gender_mapping.get(class_name, {}).get("gender_specific", "both")
+            
+            if target_gender == "both" or target_gender == gender:
+                filtered_results.append((class_name, prob))
+
+        filtered_results.sort(key=lambda x: x[1], reverse=True)
+
+        return filtered_results[:5]
