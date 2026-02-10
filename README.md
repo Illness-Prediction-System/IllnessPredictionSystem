@@ -15,6 +15,7 @@ This project requires:
 * Faker (==40.1.2)
 * imbalanced-learn (==0.14.1)
 * joblib (==1.5.3)
+* matplotlib (==3.10.8)
 * numpy (==2.4.1)
 * packaging (==26.0)
 * pandas (==3.0.0)
@@ -30,6 +31,7 @@ This project requires:
 * threadpoolctl (==3.6.0)
 * tzdata (==2025.3)
 * uuid (==1.30)
+* windrose (==1.9.2)
 * xgboost (==3.1.3)
 
 ### Installation steps
