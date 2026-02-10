@@ -4,7 +4,7 @@ This is a work-in-progress Python project using machine learning to predict illn
 
 Started as a part of winter university practice.
 
-## (WIP) Building from source
+## (WIP) Running from source
 
 ### IMPORTANT:
 Running src/pipeline.py requires authorized access to the database.
