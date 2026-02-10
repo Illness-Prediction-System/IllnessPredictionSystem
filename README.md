@@ -43,11 +43,16 @@ Install required dependencies:
 ```
 pip install -r requirements.txt
 ```
+Before you can run the main script, you need to have following files:
+* `label_encoder.joblib`
+* `logistic_regression.joblib`
+* `scaler.joblib`
+* `data/mappings/label_mapping_gender.json`
 To make joblib files, run `src/pipeline.py` **(requires authorised connection to the database)**:
 ```
 python -m src.pipeline
 ```
-If you have the joblib files, you can run the main script:
+Once you have all the mentioned files, you can run the program:
 ```
 python -m main
 ```
