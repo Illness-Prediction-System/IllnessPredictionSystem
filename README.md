@@ -4,7 +4,10 @@ This is a work-in-progress Python project using machine learning to predict illn
 
 Started as a part of winter university practice.
 
-## Installation
+## (WIP) Building from source
+
+### IMPORTANT:
+Running src/pipeline.py requires authorized access to the database.
 
 ### Dependencies
 This project requires:
@@ -29,6 +32,29 @@ This project requires:
 * uuid (==1.30)
 * xgboost (==3.1.3)
 
-### User installation
+### Installation steps
 
-**Todo**: update when main.py is added to repository.
+Clone the repository:
+```
+git clone https://github.com/Illness-Prediction-System/IllnessPredictionSystem.git
+cd IllnessPredictionSystem
+```
+Install required dependencies:
+```
+pip install -r requirements.txt
+```
+To make joblib files, run `src/pipeline.py` **(requires authorised connection to the database)**:
+```
+python -m src.pipeline
+```
+If you have the joblib files, you can run the main script:
+```
+python -m main
+```
+## Assets
+
+### Icons
+All UI icons are from [Google Material Icons](https://github.com/google/material-design-icons) 
+licensed under [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt).
+
+Copyright 2023 Google LLC.
