@@ -160,7 +160,7 @@
       </sizepolicy>
      </property>
      <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;(!) Profile hasn't been created yet.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Create a profile to continue.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
    </item>
@@ -259,7 +259,7 @@
     </widget>
    </item>
    <item row="3" column="1">
-    <widget class="QLineEdit" name="lineEdit">
+    <widget class="QLineEdit" name="leAge">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
        <horstretch>0</horstretch>
@@ -282,6 +282,13 @@
    </item>
   </layout>
  </widget>
+ <tabstops>
+  <tabstop>leFirstName</tabstop>
+  <tabstop>leLastName</tabstop>
+  <tabstop>leAge</tabstop>
+  <tabstop>cmbSex</tabstop>
+  <tabstop>btnConfirm</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>

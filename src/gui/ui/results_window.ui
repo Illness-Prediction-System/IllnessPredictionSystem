@@ -137,7 +137,7 @@
     </widget>
    </item>
    <item row="2" column="0" rowspan="5">
-    <widget class="QFrame" name="frameWindrose">
+    <widget class="QFrame" name="frmWindrose">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
        <horstretch>1</horstretch>
