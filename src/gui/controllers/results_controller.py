@@ -7,6 +7,7 @@ from src.gui.controllers import windrose
 
 import joblib
 import numpy as np
+import requests
 
 results_window = None
 
@@ -43,7 +44,34 @@ def run_model():
         speeds_list.extend([probability])
 
     windrose.create_windrose_in_frame(windrose_frame, speeds_list)
-    
+    send_report_to_server(predictions, original_labels)
+
+def send_report_to_server(prediction, original_labels):
+    try:
+        selected_symptoms = [i for i, val in enumerate(current_profile.symptoms) if val == 1]
+        prediction_payload = []
+        for i in range(5):
+            prediction_payload.append({
+                "disease_id": int(original_labels[i]),
+                "probability": float(prediction[i][1])
+            })
+        payload = {
+            "first_name": current_profile.first_name,
+            "last_name": current_profile.last_name,
+            "age": current_profile.age,
+            "sex": current_profile.sex[0],
+            "symptoms_ids": selected_symptoms,
+            "prediction": prediction_payload
+        }
+        response = requests.post("http://35.158.139.26:8000/save_report", json=payload)
+        if response.status_code == 200:
+            print("Report sent successfully.")
+        else:            
+            print(f"Failed to send report. Status code: {response.text}")
+
+    except Exception as e:
+        print(f"Failed to send report: {e}")
+
 def setup_results_window():
     global labels, windrose_frame
     labels[0] = results_window.findChild(QtWidgets.QLabel, "lblFirst")
