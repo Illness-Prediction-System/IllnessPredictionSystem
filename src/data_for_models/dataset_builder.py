@@ -1,5 +1,8 @@
-from src.database import get_table, create_connection_pool, close_connection_pool 
+from urllib import response
+import requests
+import time
 import pandas as pd
+import os
 
 
 def get_merged(entities: dict) -> pd.DataFrame:
@@ -23,12 +26,27 @@ def get_merged(entities: dict) -> pd.DataFrame:
     return final_df
 
 def build_dataset():
-    create_connection_pool()
     names = ["case_symptoms", "diseases", "medical_cases", "patients", "symptoms"]
-    tables = {name : get_table(name) for name in names}
-    close_connection_pool()
+    tables = {}
+    for name in names:
+        try:
+            url = f"http://35.158.139.26:8000/download_table/{name}"
+            with requests.get(url, stream=True, timeout=600) as response:
+                response.raise_for_status()
+                with open(f"{name}.csv", "wb") as f:
+                    for chunk in response.iter_content(chunk_size=8192):
+                        f.write(chunk)
+            tables[name] = pd.read_csv(f"{name}.csv")
+            print(f"Fetched {name} successfully.")
+            if os.path.exists(f"{name}.csv"):
+                os.remove(f"{name}.csv")
+            time.sleep(1.5)
+        except Exception as e:
+            print(f"Error fetching {name}: {e}")
+            return None
     df = get_merged(tables)
     return df
 
 if __name__ == "__main__":
-    build_dataset()
+    df = build_dataset()
+    print(df.head())
