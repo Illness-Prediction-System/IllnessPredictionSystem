@@ -38,9 +38,6 @@ Thumbs.db
 *.log
 logs/
 
-# Data files
-data/
-
 # If your database connection config is in src/database/
 *.env
 .env.local
@@ -80,3 +77,10 @@ htmlcov/
 *.temp
 temp/
 tmp/
+
+# Data files
+!data/
+data/*
+!data/mappings/
+data/mappings/*
+!data/mappings/label_mapping_gender.json

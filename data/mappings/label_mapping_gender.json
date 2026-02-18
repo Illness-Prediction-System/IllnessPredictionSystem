@@ -1,0 +1,3094 @@
+{
+  "panic disorder": {
+    "mapping": 0,
+    "gender_specific": "both"
+  },
+  "vocal cord polyp": {
+    "mapping": 1,
+    "gender_specific": "both"
+  },
+  "turner syndrome": {
+    "mapping": 2,
+    "gender_specific": "female"
+  },
+  "cryptorchidism": {
+    "mapping": 3,
+    "gender_specific": "male"
+  },
+  "poisoning due to ethylene glycol": {
+    "mapping": 4,
+    "gender_specific": "both"
+  },
+  "atrophic vaginitis": {
+    "mapping": 5,
+    "gender_specific": "female"
+  },
+  "fracture of the hand": {
+    "mapping": 6,
+    "gender_specific": "both"
+  },
+  "cellulitis or abscess of mouth": {
+    "mapping": 7,
+    "gender_specific": "both"
+  },
+  "eye alignment disorder": {
+    "mapping": 8,
+    "gender_specific": "both"
+  },
+  "headache after lumbar puncture": {
+    "mapping": 9,
+    "gender_specific": "both"
+  },
+  "pyloric stenosis": {
+    "mapping": 10,
+    "gender_specific": "both"
+  },
+  "salivary gland disorder": {
+    "mapping": 11,
+    "gender_specific": "both"
+  },
+  "osteochondrosis": {
+    "mapping": 12,
+    "gender_specific": "both"
+  },
+  "injury to the knee": {
+    "mapping": 13,
+    "gender_specific": "both"
+  },
+  "metabolic disorder": {
+    "mapping": 14,
+    "gender_specific": "both"
+  },
+  "vaginitis": {
+    "mapping": 15,
+    "gender_specific": "female"
+  },
+  "sick sinus syndrome": {
+    "mapping": 16,
+    "gender_specific": "both"
+  },
+  "tinnitus of unknown cause": {
+    "mapping": 17,
+    "gender_specific": "both"
+  },
+  "glaucoma": {
+    "mapping": 18,
+    "gender_specific": "both"
+  },
+  "eating disorder": {
+    "mapping": 19,
+    "gender_specific": "both"
+  },
+  "transient ischemic attack": {
+    "mapping": 20,
+    "gender_specific": "both"
+  },
+  "pyelonephritis": {
+    "mapping": 21,
+    "gender_specific": "both"
+  },
+  "rotator cuff injury": {
+    "mapping": 22,
+    "gender_specific": "both"
+  },
+  "chronic pain disorder": {
+    "mapping": 23,
+    "gender_specific": "both"
+  },
+  "problem during pregnancy": {
+    "mapping": 24,
+    "gender_specific": "female"
+  },
+  "liver cancer": {
+    "mapping": 25,
+    "gender_specific": "both"
+  },
+  "atelectasis": {
+    "mapping": 26,
+    "gender_specific": "both"
+  },
+  "injury to the hand": {
+    "mapping": 27,
+    "gender_specific": "both"
+  },
+  "choledocholithiasis": {
+    "mapping": 28,
+    "gender_specific": "both"
+  },
+  "injury to the hip": {
+    "mapping": 29,
+    "gender_specific": "both"
+  },
+  "cirrhosis": {
+    "mapping": 30,
+    "gender_specific": "both"
+  },
+  "thoracic aortic aneurysm": {
+    "mapping": 31,
+    "gender_specific": "both"
+  },
+  "subdural hemorrhage": {
+    "mapping": 32,
+    "gender_specific": "both"
+  },
+  "diabetic retinopathy": {
+    "mapping": 33,
+    "gender_specific": "both"
+  },
+  "fibromyalgia": {
+    "mapping": 34,
+    "gender_specific": "both"
+  },
+  "ischemia of the bowel": {
+    "mapping": 35,
+    "gender_specific": "both"
+  },
+  "fetal alcohol syndrome": {
+    "mapping": 36,
+    "gender_specific": "both"
+  },
+  "peritonitis": {
+    "mapping": 37,
+    "gender_specific": "both"
+  },
+  "injury to the abdomen": {
+    "mapping": 38,
+    "gender_specific": "both"
+  },
+  "acute pancreatitis": {
+    "mapping": 39,
+    "gender_specific": "both"
+  },
+  "thrombophlebitis": {
+    "mapping": 40,
+    "gender_specific": "both"
+  },
+  "asthma": {
+    "mapping": 41,
+    "gender_specific": "both"
+  },
+  "foreign body in the vagina": {
+    "mapping": 42,
+    "gender_specific": "female"
+  },
+  "restless leg syndrome": {
+    "mapping": 43,
+    "gender_specific": "both"
+  },
+  "emphysema": {
+    "mapping": 44,
+    "gender_specific": "both"
+  },
+  "cysticercosis": {
+    "mapping": 45,
+    "gender_specific": "both"
+  },
+  "induced abortion": {
+    "mapping": 46,
+    "gender_specific": "female"
+  },
+  "teething syndrome": {
+    "mapping": 47,
+    "gender_specific": "both"
+  },
+  "infectious gastroenteritis": {
+    "mapping": 48,
+    "gender_specific": "both"
+  },
+  "acute sinusitis": {
+    "mapping": 49,
+    "gender_specific": "both"
+  },
+  "substance-related mental disorder": {
+    "mapping": 50,
+    "gender_specific": "both"
+  },
+  "postpartum depression": {
+    "mapping": 51,
+    "gender_specific": "female"
+  },
+  "coronary atherosclerosis": {
+    "mapping": 52,
+    "gender_specific": "both"
+  },
+  "spondylitis": {
+    "mapping": 53,
+    "gender_specific": "both"
+  },
+  "pituitary adenoma": {
+    "mapping": 54,
+    "gender_specific": "both"
+  },
+  "uterine fibroids": {
+    "mapping": 55,
+    "gender_specific": "female"
+  },
+  "idiopathic nonmenstrual bleeding": {
+    "mapping": 56,
+    "gender_specific": "female"
+  },
+  "chalazion": {
+    "mapping": 57,
+    "gender_specific": "both"
+  },
+  "ovarian torsion": {
+    "mapping": 58,
+    "gender_specific": "female"
+  },
+  "retinopathy due to high blood pressure": {
+    "mapping": 59,
+    "gender_specific": "both"
+  },
+  "vaginal yeast infection": {
+    "mapping": 60,
+    "gender_specific": "female"
+  },
+  "mastoiditis": {
+    "mapping": 61,
+    "gender_specific": "both"
+  },
+  "lung contusion": {
+    "mapping": 62,
+    "gender_specific": "both"
+  },
+  "hypertrophic obstructive cardiomyopathy (hocm)": {
+    "mapping": 63,
+    "gender_specific": "both"
+  },
+  "ingrown toe nail": {
+    "mapping": 64,
+    "gender_specific": "both"
+  },
+  "pulmonary eosinophilia": {
+    "mapping": 65,
+    "gender_specific": "both"
+  },
+  "corneal disorder": {
+    "mapping": 66,
+    "gender_specific": "both"
+  },
+  "foreign body in the gastrointestinal tract": {
+    "mapping": 67,
+    "gender_specific": "both"
+  },
+  "endophthalmitis": {
+    "mapping": 68,
+    "gender_specific": "both"
+  },
+  "intestinal malabsorption": {
+    "mapping": 69,
+    "gender_specific": "both"
+  },
+  "viral warts": {
+    "mapping": 70,
+    "gender_specific": "both"
+  },
+  "hyperhidrosis": {
+    "mapping": 71,
+    "gender_specific": "both"
+  },
+  "stroke": {
+    "mapping": 72,
+    "gender_specific": "both"
+  },
+  "pilonidal cyst": {
+    "mapping": 73,
+    "gender_specific": "both"
+  },
+  "crushing injury": {
+    "mapping": 74,
+    "gender_specific": "both"
+  },
+  "normal pressure hydrocephalus": {
+    "mapping": 75,
+    "gender_specific": "both"
+  },
+  "alopecia": {
+    "mapping": 76,
+    "gender_specific": "both"
+  },
+  "hashimoto thyroiditis": {
+    "mapping": 77,
+    "gender_specific": "both"
+  },
+  "flat feet": {
+    "mapping": 78,
+    "gender_specific": "both"
+  },
+  "nonalcoholic liver disease (nash)": {
+    "mapping": 79,
+    "gender_specific": "both"
+  },
+  "hemarthrosis": {
+    "mapping": 80,
+    "gender_specific": "both"
+  },
+  "pelvic organ prolapse": {
+    "mapping": 81,
+    "gender_specific": "female"
+  },
+  "fracture of the arm": {
+    "mapping": 82,
+    "gender_specific": "both"
+  },
+  "coagulation (bleeding) disorder": {
+    "mapping": 83,
+    "gender_specific": "both"
+  },
+  "intracranial hemorrhage": {
+    "mapping": 84,
+    "gender_specific": "both"
+  },
+  "hyperkalemia": {
+    "mapping": 85,
+    "gender_specific": "both"
+  },
+  "cornea infection": {
+    "mapping": 86,
+    "gender_specific": "both"
+  },
+  "abscess of the lung": {
+    "mapping": 87,
+    "gender_specific": "both"
+  },
+  "dengue fever": {
+    "mapping": 88,
+    "gender_specific": "both"
+  },
+  "chronic sinusitis": {
+    "mapping": 89,
+    "gender_specific": "both"
+  },
+  "cholesteatoma": {
+    "mapping": 90,
+    "gender_specific": "both"
+  },
+  "volvulus": {
+    "mapping": 91,
+    "gender_specific": "both"
+  },
+  "injury to the finger": {
+    "mapping": 92,
+    "gender_specific": "both"
+  },
+  "poisoning due to analgesics": {
+    "mapping": 93,
+    "gender_specific": "both"
+  },
+  "atrial fibrillation": {
+    "mapping": 94,
+    "gender_specific": "both"
+  },
+  "pinworm infection": {
+    "mapping": 95,
+    "gender_specific": "both"
+  },
+  "urethral valves": {
+    "mapping": 96,
+    "gender_specific": "male"
+  },
+  "open wound of the neck": {
+    "mapping": 97,
+    "gender_specific": "both"
+  },
+  "achalasia": {
+    "mapping": 98,
+    "gender_specific": "both"
+  },
+  "conductive hearing loss": {
+    "mapping": 99,
+    "gender_specific": "both"
+  },
+  "abdominal hernia": {
+    "mapping": 100,
+    "gender_specific": "both"
+  },
+  "cerebral palsy": {
+    "mapping": 101,
+    "gender_specific": "both"
+  },
+  "marijuana abuse": {
+    "mapping": 102,
+    "gender_specific": "both"
+  },
+  "cryptococcosis": {
+    "mapping": 103,
+    "gender_specific": "both"
+  },
+  "obesity": {
+    "mapping": 104,
+    "gender_specific": "both"
+  },
+  "indigestion": {
+    "mapping": 105,
+    "gender_specific": "both"
+  },
+  "bursitis": {
+    "mapping": 106,
+    "gender_specific": "both"
+  },
+  "esophageal cancer": {
+    "mapping": 107,
+    "gender_specific": "both"
+  },
+  "pulmonary congestion": {
+    "mapping": 108,
+    "gender_specific": "both"
+  },
+  "juvenile rheumatoid arthritis": {
+    "mapping": 109,
+    "gender_specific": "both"
+  },
+  "actinic keratosis": {
+    "mapping": 110,
+    "gender_specific": "both"
+  },
+  "acute otitis media": {
+    "mapping": 111,
+    "gender_specific": "both"
+  },
+  "astigmatism": {
+    "mapping": 112,
+    "gender_specific": "both"
+  },
+  "tuberous sclerosis": {
+    "mapping": 113,
+    "gender_specific": "both"
+  },
+  "empyema": {
+    "mapping": 114,
+    "gender_specific": "both"
+  },
+  "presbyacusis": {
+    "mapping": 115,
+    "gender_specific": "both"
+  },
+  "neonatal jaundice": {
+    "mapping": 116,
+    "gender_specific": "both"
+  },
+  "chronic obstructive pulmonary disease (copd)": {
+    "mapping": 117,
+    "gender_specific": "both"
+  },
+  "dislocation of the elbow": {
+    "mapping": 118,
+    "gender_specific": "both"
+  },
+  "spondylosis": {
+    "mapping": 119,
+    "gender_specific": "both"
+  },
+  "herpangina": {
+    "mapping": 120,
+    "gender_specific": "both"
+  },
+  "injury to the shoulder": {
+    "mapping": 121,
+    "gender_specific": "both"
+  },
+  "poisoning due to antidepressants": {
+    "mapping": 122,
+    "gender_specific": "both"
+  },
+  "infection of open wound": {
+    "mapping": 123,
+    "gender_specific": "both"
+  },
+  "deep vein thrombosis (dvt)": {
+    "mapping": 124,
+    "gender_specific": "both"
+  },
+  "protein deficiency": {
+    "mapping": 125,
+    "gender_specific": "both"
+  },
+  "myoclonus": {
+    "mapping": 126,
+    "gender_specific": "both"
+  },
+  "bone spur of the calcaneous": {
+    "mapping": 127,
+    "gender_specific": "both"
+  },
+  "von willebrand disease": {
+    "mapping": 128,
+    "gender_specific": "both"
+  },
+  "open wound of the back": {
+    "mapping": 129,
+    "gender_specific": "both"
+  },
+  "heart block": {
+    "mapping": 130,
+    "gender_specific": "both"
+  },
+  "colonic polyp": {
+    "mapping": 131,
+    "gender_specific": "both"
+  },
+  "magnesium deficiency": {
+    "mapping": 132,
+    "gender_specific": "both"
+  },
+  "female infertility of unknown cause": {
+    "mapping": 133,
+    "gender_specific": "female"
+  },
+  "pericarditis": {
+    "mapping": 134,
+    "gender_specific": "both"
+  },
+  "attention deficit hyperactivity disorder (adhd)": {
+    "mapping": 135,
+    "gender_specific": "both"
+  },
+  "pulmonic valve disease": {
+    "mapping": 136,
+    "gender_specific": "both"
+  },
+  "tietze syndrome": {
+    "mapping": 137,
+    "gender_specific": "both"
+  },
+  "cranial nerve palsy": {
+    "mapping": 138,
+    "gender_specific": "both"
+  },
+  "injury to the arm": {
+    "mapping": 139,
+    "gender_specific": "both"
+  },
+  "conversion disorder": {
+    "mapping": 140,
+    "gender_specific": "both"
+  },
+  "complex regional pain syndrome": {
+    "mapping": 141,
+    "gender_specific": "both"
+  },
+  "otosclerosis": {
+    "mapping": 142,
+    "gender_specific": "both"
+  },
+  "injury to the trunk": {
+    "mapping": 143,
+    "gender_specific": "both"
+  },
+  "hypothyroidism": {
+    "mapping": 144,
+    "gender_specific": "both"
+  },
+  "primary insomnia": {
+    "mapping": 145,
+    "gender_specific": "both"
+  },
+  "lice": {
+    "mapping": 146,
+    "gender_specific": "both"
+  },
+  "vitamin b12 deficiency": {
+    "mapping": 147,
+    "gender_specific": "both"
+  },
+  "diabetes": {
+    "mapping": 148,
+    "gender_specific": "both"
+  },
+  "vulvodynia": {
+    "mapping": 149,
+    "gender_specific": "female"
+  },
+  "endometriosis": {
+    "mapping": 150,
+    "gender_specific": "female"
+  },
+  "vasculitis": {
+    "mapping": 151,
+    "gender_specific": "both"
+  },
+  "concussion": {
+    "mapping": 152,
+    "gender_specific": "both"
+  },
+  "oral leukoplakia": {
+    "mapping": 153,
+    "gender_specific": "both"
+  },
+  "chronic kidney disease": {
+    "mapping": 154,
+    "gender_specific": "both"
+  },
+  "bladder disorder": {
+    "mapping": 155,
+    "gender_specific": "both"
+  },
+  "chorioretinitis": {
+    "mapping": 156,
+    "gender_specific": "both"
+  },
+  "priapism": {
+    "mapping": 157,
+    "gender_specific": "male"
+  },
+  "myositis": {
+    "mapping": 158,
+    "gender_specific": "both"
+  },
+  "mononucleosis": {
+    "mapping": 159,
+    "gender_specific": "both"
+  },
+  "neuralgia": {
+    "mapping": 160,
+    "gender_specific": "both"
+  },
+  "polycystic kidney disease": {
+    "mapping": 161,
+    "gender_specific": "both"
+  },
+  "bipolar disorder": {
+    "mapping": 162,
+    "gender_specific": "both"
+  },
+  "amyloidosis": {
+    "mapping": 163,
+    "gender_specific": "both"
+  },
+  "chronic inflammatory demyelinating polyneuropathy (cidp)": {
+    "mapping": 164,
+    "gender_specific": "both"
+  },
+  "gastroesophageal reflux disease (gerd)": {
+    "mapping": 165,
+    "gender_specific": "both"
+  },
+  "vitreous hemorrhage": {
+    "mapping": 166,
+    "gender_specific": "both"
+  },
+  "poisoning due to antimicrobial drugs": {
+    "mapping": 167,
+    "gender_specific": "both"
+  },
+  "open wound of the mouth": {
+    "mapping": 168,
+    "gender_specific": "both"
+  },
+  "scleroderma": {
+    "mapping": 169,
+    "gender_specific": "both"
+  },
+  "myasthenia gravis": {
+    "mapping": 170,
+    "gender_specific": "both"
+  },
+  "hypoglycemia": {
+    "mapping": 171,
+    "gender_specific": "both"
+  },
+  "idiopathic absence of menstruation": {
+    "mapping": 172,
+    "gender_specific": "female"
+  },
+  "dislocation of the ankle": {
+    "mapping": 173,
+    "gender_specific": "both"
+  },
+  "carbon monoxide poisoning": {
+    "mapping": 174,
+    "gender_specific": "both"
+  },
+  "panic attack": {
+    "mapping": 175,
+    "gender_specific": "both"
+  },
+  "plantar fasciitis": {
+    "mapping": 176,
+    "gender_specific": "both"
+  },
+  "hyperopia": {
+    "mapping": 177,
+    "gender_specific": "both"
+  },
+  "poisoning due to sedatives": {
+    "mapping": 178,
+    "gender_specific": "both"
+  },
+  "pemphigus": {
+    "mapping": 179,
+    "gender_specific": "both"
+  },
+  "peyronie disease": {
+    "mapping": 180,
+    "gender_specific": "male"
+  },
+  "hiatal hernia": {
+    "mapping": 181,
+    "gender_specific": "both"
+  },
+  "extrapyramidal effect of drugs": {
+    "mapping": 182,
+    "gender_specific": "both"
+  },
+  "meniere disease": {
+    "mapping": 183,
+    "gender_specific": "both"
+  },
+  "anal fissure": {
+    "mapping": 184,
+    "gender_specific": "both"
+  },
+  "allergy": {
+    "mapping": 185,
+    "gender_specific": "both"
+  },
+  "chronic otitis media": {
+    "mapping": 186,
+    "gender_specific": "both"
+  },
+  "fracture of the finger": {
+    "mapping": 187,
+    "gender_specific": "both"
+  },
+  "hirschsprung disease": {
+    "mapping": 188,
+    "gender_specific": "both"
+  },
+  "polymyalgia rheumatica": {
+    "mapping": 189,
+    "gender_specific": "both"
+  },
+  "lymphedema": {
+    "mapping": 190,
+    "gender_specific": "both"
+  },
+  "bladder cancer": {
+    "mapping": 191,
+    "gender_specific": "both"
+  },
+  "acute bronchospasm": {
+    "mapping": 192,
+    "gender_specific": "both"
+  },
+  "acute glaucoma": {
+    "mapping": 193,
+    "gender_specific": "both"
+  },
+  "open wound of the chest": {
+    "mapping": 194,
+    "gender_specific": "both"
+  },
+  "dislocation of the patella": {
+    "mapping": 195,
+    "gender_specific": "both"
+  },
+  "sciatica": {
+    "mapping": 196,
+    "gender_specific": "both"
+  },
+  "hypercalcemia": {
+    "mapping": 197,
+    "gender_specific": "both"
+  },
+  "stress incontinence": {
+    "mapping": 198,
+    "gender_specific": "both"
+  },
+  "varicose veins": {
+    "mapping": 199,
+    "gender_specific": "both"
+  },
+  "benign kidney cyst": {
+    "mapping": 200,
+    "gender_specific": "both"
+  },
+  "hydrocele of the testicle": {
+    "mapping": 201,
+    "gender_specific": "male"
+  },
+  "degenerative disc disease": {
+    "mapping": 202,
+    "gender_specific": "both"
+  },
+  "hirsutism": {
+    "mapping": 203,
+    "gender_specific": "both"
+  },
+  "dislocation of the foot": {
+    "mapping": 204,
+    "gender_specific": "both"
+  },
+  "hydronephrosis": {
+    "mapping": 205,
+    "gender_specific": "both"
+  },
+  "diverticulosis": {
+    "mapping": 206,
+    "gender_specific": "both"
+  },
+  "pain after an operation": {
+    "mapping": 207,
+    "gender_specific": "both"
+  },
+  "huntington disease": {
+    "mapping": 208,
+    "gender_specific": "both"
+  },
+  "lymphoma": {
+    "mapping": 209,
+    "gender_specific": "both"
+  },
+  "dermatitis due to sun exposure": {
+    "mapping": 210,
+    "gender_specific": "both"
+  },
+  "anemia due to chronic kidney disease": {
+    "mapping": 211,
+    "gender_specific": "both"
+  },
+  "injury to internal organ": {
+    "mapping": 212,
+    "gender_specific": "both"
+  },
+  "scleritis": {
+    "mapping": 213,
+    "gender_specific": "both"
+  },
+  "pterygium": {
+    "mapping": 214,
+    "gender_specific": "both"
+  },
+  "fungal infection of the skin": {
+    "mapping": 215,
+    "gender_specific": "both"
+  },
+  "insulin overdose": {
+    "mapping": 216,
+    "gender_specific": "both"
+  },
+  "syndrome of inappropriate secretion of adh (siadh)": {
+    "mapping": 217,
+    "gender_specific": "both"
+  },
+  "foreign body in the ear": {
+    "mapping": 218,
+    "gender_specific": "both"
+  },
+  "premenstrual tension syndrome": {
+    "mapping": 219,
+    "gender_specific": "female"
+  },
+  "orbital cellulitis": {
+    "mapping": 220,
+    "gender_specific": "both"
+  },
+  "injury to the leg": {
+    "mapping": 221,
+    "gender_specific": "both"
+  },
+  "hepatic encephalopathy": {
+    "mapping": 222,
+    "gender_specific": "both"
+  },
+  "bone cancer": {
+    "mapping": 223,
+    "gender_specific": "both"
+  },
+  "syringomyelia": {
+    "mapping": 224,
+    "gender_specific": "both"
+  },
+  "pulmonary fibrosis": {
+    "mapping": 225,
+    "gender_specific": "both"
+  },
+  "mitral valve disease": {
+    "mapping": 226,
+    "gender_specific": "both"
+  },
+  "parkinson disease": {
+    "mapping": 227,
+    "gender_specific": "both"
+  },
+  "gout": {
+    "mapping": 228,
+    "gender_specific": "both"
+  },
+  "otitis media": {
+    "mapping": 229,
+    "gender_specific": "both"
+  },
+  "drug abuse (opioids)": {
+    "mapping": 230,
+    "gender_specific": "both"
+  },
+  "myelodysplastic syndrome": {
+    "mapping": 231,
+    "gender_specific": "both"
+  },
+  "fracture of the shoulder": {
+    "mapping": 232,
+    "gender_specific": "both"
+  },
+  "acute kidney injury": {
+    "mapping": 233,
+    "gender_specific": "both"
+  },
+  "threatened pregnancy": {
+    "mapping": 234,
+    "gender_specific": "female"
+  },
+  "intracranial abscess": {
+    "mapping": 235,
+    "gender_specific": "both"
+  },
+  "gum disease": {
+    "mapping": 236,
+    "gender_specific": "both"
+  },
+  "open wound from surgical incision": {
+    "mapping": 237,
+    "gender_specific": "both"
+  },
+  "gastrointestinal hemorrhage": {
+    "mapping": 238,
+    "gender_specific": "both"
+  },
+  "seborrheic dermatitis": {
+    "mapping": 239,
+    "gender_specific": "both"
+  },
+  "drug abuse (methamphetamine)": {
+    "mapping": 240,
+    "gender_specific": "both"
+  },
+  "torticollis": {
+    "mapping": 241,
+    "gender_specific": "both"
+  },
+  "poisoning due to antihypertensives": {
+    "mapping": 242,
+    "gender_specific": "both"
+  },
+  "tension headache": {
+    "mapping": 243,
+    "gender_specific": "both"
+  },
+  "alcohol intoxication": {
+    "mapping": 244,
+    "gender_specific": "both"
+  },
+  "scurvy": {
+    "mapping": 245,
+    "gender_specific": "both"
+  },
+  "narcolepsy": {
+    "mapping": 246,
+    "gender_specific": "both"
+  },
+  "food allergy": {
+    "mapping": 247,
+    "gender_specific": "both"
+  },
+  "labyrinthitis": {
+    "mapping": 248,
+    "gender_specific": "both"
+  },
+  "anxiety": {
+    "mapping": 249,
+    "gender_specific": "both"
+  },
+  "impulse control disorder": {
+    "mapping": 250,
+    "gender_specific": "both"
+  },
+  "stenosis of the tear duct": {
+    "mapping": 251,
+    "gender_specific": "both"
+  },
+  "abscess of nose": {
+    "mapping": 252,
+    "gender_specific": "both"
+  },
+  "omphalitis": {
+    "mapping": 253,
+    "gender_specific": "both"
+  },
+  "leukemia": {
+    "mapping": 254,
+    "gender_specific": "both"
+  },
+  "bell palsy": {
+    "mapping": 255,
+    "gender_specific": "both"
+  },
+  "conjunctivitis due to allergy": {
+    "mapping": 256,
+    "gender_specific": "both"
+  },
+  "drug reaction": {
+    "mapping": 257,
+    "gender_specific": "both"
+  },
+  "adrenal cancer": {
+    "mapping": 258,
+    "gender_specific": "both"
+  },
+  "myopia": {
+    "mapping": 259,
+    "gender_specific": "both"
+  },
+  "osteoarthritis": {
+    "mapping": 260,
+    "gender_specific": "both"
+  },
+  "thyroid disease": {
+    "mapping": 261,
+    "gender_specific": "both"
+  },
+  "pharyngitis": {
+    "mapping": 262,
+    "gender_specific": "both"
+  },
+  "chronic rheumatic fever": {
+    "mapping": 263,
+    "gender_specific": "both"
+  },
+  "hypocalcemia": {
+    "mapping": 264,
+    "gender_specific": "both"
+  },
+  "macular degeneration": {
+    "mapping": 265,
+    "gender_specific": "both"
+  },
+  "pneumonia": {
+    "mapping": 266,
+    "gender_specific": "both"
+  },
+  "cold sore": {
+    "mapping": 267,
+    "gender_specific": "both"
+  },
+  "premature ventricular contractions (pvcs)": {
+    "mapping": 268,
+    "gender_specific": "both"
+  },
+  "testicular cancer": {
+    "mapping": 269,
+    "gender_specific": "male"
+  },
+  "hydrocephalus": {
+    "mapping": 270,
+    "gender_specific": "both"
+  },
+  "breast cancer": {
+    "mapping": 271,
+    "gender_specific": "female"
+  },
+  "anemia due to malignancy": {
+    "mapping": 272,
+    "gender_specific": "both"
+  },
+  "esophageal varices": {
+    "mapping": 273,
+    "gender_specific": "both"
+  },
+  "endometrial cancer": {
+    "mapping": 274,
+    "gender_specific": "female"
+  },
+  "cystic fibrosis": {
+    "mapping": 275,
+    "gender_specific": "both"
+  },
+  "intertrigo (skin condition)": {
+    "mapping": 276,
+    "gender_specific": "both"
+  },
+  "parathyroid adenoma": {
+    "mapping": 277,
+    "gender_specific": "both"
+  },
+  "glucocorticoid deficiency": {
+    "mapping": 278,
+    "gender_specific": "both"
+  },
+  "temporomandibular joint disorder": {
+    "mapping": 279,
+    "gender_specific": "both"
+  },
+  "wilson disease": {
+    "mapping": 280,
+    "gender_specific": "both"
+  },
+  "vesicoureteral reflux": {
+    "mapping": 281,
+    "gender_specific": "both"
+  },
+  "vitamin a deficiency": {
+    "mapping": 282,
+    "gender_specific": "both"
+  },
+  "gonorrhea": {
+    "mapping": 283,
+    "gender_specific": "both"
+  },
+  "fracture of the rib": {
+    "mapping": 284,
+    "gender_specific": "both"
+  },
+  "ependymoma": {
+    "mapping": 285,
+    "gender_specific": "both"
+  },
+  "hepatitis due to a toxin": {
+    "mapping": 286,
+    "gender_specific": "both"
+  },
+  "vaginal cyst": {
+    "mapping": 287,
+    "gender_specific": "female"
+  },
+  "open wound of the shoulder": {
+    "mapping": 288,
+    "gender_specific": "both"
+  },
+  "ectopic pregnancy": {
+    "mapping": 289,
+    "gender_specific": "female"
+  },
+  "chronic knee pain": {
+    "mapping": 290,
+    "gender_specific": "both"
+  },
+  "pinguecula": {
+    "mapping": 291,
+    "gender_specific": "both"
+  },
+  "hypergammaglobulinemia": {
+    "mapping": 292,
+    "gender_specific": "both"
+  },
+  "alcohol abuse": {
+    "mapping": 293,
+    "gender_specific": "both"
+  },
+  "carpal tunnel syndrome": {
+    "mapping": 294,
+    "gender_specific": "both"
+  },
+  "pituitary disorder": {
+    "mapping": 295,
+    "gender_specific": "both"
+  },
+  "kidney stone": {
+    "mapping": 296,
+    "gender_specific": "both"
+  },
+  "autism": {
+    "mapping": 297,
+    "gender_specific": "both"
+  },
+  "cat scratch disease": {
+    "mapping": 298,
+    "gender_specific": "both"
+  },
+  "chronic glaucoma": {
+    "mapping": 299,
+    "gender_specific": "both"
+  },
+  "retinal detachment": {
+    "mapping": 300,
+    "gender_specific": "both"
+  },
+  "aplastic anemia": {
+    "mapping": 301,
+    "gender_specific": "both"
+  },
+  "overflow incontinence": {
+    "mapping": 302,
+    "gender_specific": "both"
+  },
+  "hemolytic anemia": {
+    "mapping": 303,
+    "gender_specific": "both"
+  },
+  "lateral epicondylitis (tennis elbow)": {
+    "mapping": 304,
+    "gender_specific": "both"
+  },
+  "open wound of the eye": {
+    "mapping": 305,
+    "gender_specific": "both"
+  },
+  "syphilis": {
+    "mapping": 306,
+    "gender_specific": "both"
+  },
+  "diabetic kidney disease": {
+    "mapping": 307,
+    "gender_specific": "both"
+  },
+  "nose disorder": {
+    "mapping": 308,
+    "gender_specific": "both"
+  },
+  "drug withdrawal": {
+    "mapping": 309,
+    "gender_specific": "both"
+  },
+  "dental caries": {
+    "mapping": 310,
+    "gender_specific": "both"
+  },
+  "hypercholesterolemia": {
+    "mapping": 311,
+    "gender_specific": "both"
+  },
+  "fracture of the patella": {
+    "mapping": 312,
+    "gender_specific": "both"
+  },
+  "kidney failure": {
+    "mapping": 313,
+    "gender_specific": "both"
+  },
+  "fracture of the neck": {
+    "mapping": 314,
+    "gender_specific": "both"
+  },
+  "muscle spasm": {
+    "mapping": 315,
+    "gender_specific": "both"
+  },
+  "hemophilia": {
+    "mapping": 316,
+    "gender_specific": "both"
+  },
+  "hyperosmotic hyperketotic state": {
+    "mapping": 317,
+    "gender_specific": "both"
+  },
+  "peritonsillar abscess": {
+    "mapping": 318,
+    "gender_specific": "both"
+  },
+  "gastroparesis": {
+    "mapping": 319,
+    "gender_specific": "both"
+  },
+  "itching of unknown cause": {
+    "mapping": 320,
+    "gender_specific": "both"
+  },
+  "polycythemia vera": {
+    "mapping": 321,
+    "gender_specific": "both"
+  },
+  "thrombocytopenia": {
+    "mapping": 322,
+    "gender_specific": "both"
+  },
+  "head and neck cancer": {
+    "mapping": 323,
+    "gender_specific": "both"
+  },
+  "pseudohypoparathyroidism": {
+    "mapping": 324,
+    "gender_specific": "both"
+  },
+  "goiter": {
+    "mapping": 325,
+    "gender_specific": "both"
+  },
+  "urge incontinence": {
+    "mapping": 326,
+    "gender_specific": "both"
+  },
+  "edward syndrome": {
+    "mapping": 327,
+    "gender_specific": "both"
+  },
+  "open wound of the arm": {
+    "mapping": 328,
+    "gender_specific": "both"
+  },
+  "muscular dystrophy": {
+    "mapping": 329,
+    "gender_specific": "both"
+  },
+  "mittelschmerz": {
+    "mapping": 330,
+    "gender_specific": "female"
+  },
+  "corneal abrasion": {
+    "mapping": 331,
+    "gender_specific": "both"
+  },
+  "anemia of chronic disease": {
+    "mapping": 332,
+    "gender_specific": "both"
+  },
+  "dysthymic disorder": {
+    "mapping": 333,
+    "gender_specific": "both"
+  },
+  "scarlet fever": {
+    "mapping": 334,
+    "gender_specific": "both"
+  },
+  "hypertensive heart disease": {
+    "mapping": 335,
+    "gender_specific": "both"
+  },
+  "drug abuse (barbiturates)": {
+    "mapping": 336,
+    "gender_specific": "both"
+  },
+  "polycystic ovarian syndrome (pcos)": {
+    "mapping": 337,
+    "gender_specific": "female"
+  },
+  "encephalitis": {
+    "mapping": 338,
+    "gender_specific": "both"
+  },
+  "cyst of the eyelid": {
+    "mapping": 339,
+    "gender_specific": "both"
+  },
+  "balanitis": {
+    "mapping": 340,
+    "gender_specific": "male"
+  },
+  "foreign body in the throat": {
+    "mapping": 341,
+    "gender_specific": "both"
+  },
+  "drug abuse (cocaine)": {
+    "mapping": 342,
+    "gender_specific": "both"
+  },
+  "optic neuritis": {
+    "mapping": 343,
+    "gender_specific": "both"
+  },
+  "alcohol withdrawal": {
+    "mapping": 344,
+    "gender_specific": "both"
+  },
+  "premature atrial contractions (pacs)": {
+    "mapping": 345,
+    "gender_specific": "both"
+  },
+  "hemiplegia": {
+    "mapping": 346,
+    "gender_specific": "both"
+  },
+  "hammer toe": {
+    "mapping": 347,
+    "gender_specific": "both"
+  },
+  "open wound of the cheek": {
+    "mapping": 348,
+    "gender_specific": "both"
+  },
+  "joint effusion": {
+    "mapping": 349,
+    "gender_specific": "both"
+  },
+  "open wound of the knee": {
+    "mapping": 350,
+    "gender_specific": "both"
+  },
+  "meningioma": {
+    "mapping": 351,
+    "gender_specific": "both"
+  },
+  "brain cancer": {
+    "mapping": 352,
+    "gender_specific": "both"
+  },
+  "placental abruption": {
+    "mapping": 353,
+    "gender_specific": "female"
+  },
+  "seasonal allergies (hay fever)": {
+    "mapping": 354,
+    "gender_specific": "both"
+  },
+  "lung cancer": {
+    "mapping": 355,
+    "gender_specific": "both"
+  },
+  "primary kidney disease": {
+    "mapping": 356,
+    "gender_specific": "both"
+  },
+  "uterine cancer": {
+    "mapping": 357,
+    "gender_specific": "female"
+  },
+  "dry eye of unknown cause": {
+    "mapping": 358,
+    "gender_specific": "both"
+  },
+  "fibrocystic breast disease": {
+    "mapping": 359,
+    "gender_specific": "female"
+  },
+  "fungal infection of the hair": {
+    "mapping": 360,
+    "gender_specific": "both"
+  },
+  "tooth abscess": {
+    "mapping": 361,
+    "gender_specific": "both"
+  },
+  "envenomation from spider or animal bite": {
+    "mapping": 362,
+    "gender_specific": "both"
+  },
+  "vacterl syndrome": {
+    "mapping": 363,
+    "gender_specific": "both"
+  },
+  "vertebrobasilar insufficiency": {
+    "mapping": 364,
+    "gender_specific": "both"
+  },
+  "rectal disorder": {
+    "mapping": 365,
+    "gender_specific": "both"
+  },
+  "atonic bladder": {
+    "mapping": 366,
+    "gender_specific": "both"
+  },
+  "benign paroxysmal positional vertical (bppv)": {
+    "mapping": 367,
+    "gender_specific": "both"
+  },
+  "blepharospasm": {
+    "mapping": 368,
+    "gender_specific": "both"
+  },
+  "sarcoidosis": {
+    "mapping": 369,
+    "gender_specific": "both"
+  },
+  "metastatic cancer": {
+    "mapping": 370,
+    "gender_specific": "both"
+  },
+  "trigger finger (finger disorder)": {
+    "mapping": 371,
+    "gender_specific": "both"
+  },
+  "stye": {
+    "mapping": 372,
+    "gender_specific": "both"
+  },
+  "hemochromatosis": {
+    "mapping": 373,
+    "gender_specific": "both"
+  },
+  "osteochondroma": {
+    "mapping": 374,
+    "gender_specific": "both"
+  },
+  "cushing syndrome": {
+    "mapping": 375,
+    "gender_specific": "both"
+  },
+  "typhoid fever": {
+    "mapping": 376,
+    "gender_specific": "both"
+  },
+  "vitreous degeneration": {
+    "mapping": 377,
+    "gender_specific": "both"
+  },
+  "atrophic skin condition": {
+    "mapping": 378,
+    "gender_specific": "both"
+  },
+  "aspergillosis": {
+    "mapping": 379,
+    "gender_specific": "both"
+  },
+  "uterine atony": {
+    "mapping": 380,
+    "gender_specific": "female"
+  },
+  "trichinosis": {
+    "mapping": 381,
+    "gender_specific": "both"
+  },
+  "whooping cough": {
+    "mapping": 382,
+    "gender_specific": "both"
+  },
+  "open wound of the lip": {
+    "mapping": 383,
+    "gender_specific": "both"
+  },
+  "subacute thyroiditis": {
+    "mapping": 384,
+    "gender_specific": "both"
+  },
+  "oral mucosal lesion": {
+    "mapping": 385,
+    "gender_specific": "both"
+  },
+  "open wound due to trauma": {
+    "mapping": 386,
+    "gender_specific": "both"
+  },
+  "intracerebral hemorrhage": {
+    "mapping": 387,
+    "gender_specific": "both"
+  },
+  "alzheimer disease": {
+    "mapping": 388,
+    "gender_specific": "both"
+  },
+  "vaginismus": {
+    "mapping": 389,
+    "gender_specific": "female"
+  },
+  "systemic lupus erythematosis (sle)": {
+    "mapping": 390,
+    "gender_specific": "both"
+  },
+  "premature ovarian failure": {
+    "mapping": 391,
+    "gender_specific": "female"
+  },
+  "thoracic outlet syndrome": {
+    "mapping": 392,
+    "gender_specific": "both"
+  },
+  "ganglion cyst": {
+    "mapping": 393,
+    "gender_specific": "both"
+  },
+  "dislocation of the knee": {
+    "mapping": 394,
+    "gender_specific": "both"
+  },
+  "crohn disease": {
+    "mapping": 395,
+    "gender_specific": "both"
+  },
+  "postoperative infection": {
+    "mapping": 396,
+    "gender_specific": "both"
+  },
+  "folate deficiency": {
+    "mapping": 397,
+    "gender_specific": "both"
+  },
+  "fluid overload": {
+    "mapping": 398,
+    "gender_specific": "both"
+  },
+  "atrial flutter": {
+    "mapping": 399,
+    "gender_specific": "both"
+  },
+  "skin disorder": {
+    "mapping": 400,
+    "gender_specific": "both"
+  },
+  "floaters": {
+    "mapping": 401,
+    "gender_specific": "both"
+  },
+  "tooth disorder": {
+    "mapping": 402,
+    "gender_specific": "both"
+  },
+  "heart attack": {
+    "mapping": 403,
+    "gender_specific": "both"
+  },
+  "open wound of the abdomen": {
+    "mapping": 404,
+    "gender_specific": "both"
+  },
+  "fracture of the leg": {
+    "mapping": 405,
+    "gender_specific": "both"
+  },
+  "oral thrush (yeast infection)": {
+    "mapping": 406,
+    "gender_specific": "both"
+  },
+  "pityriasis rosea": {
+    "mapping": 407,
+    "gender_specific": "both"
+  },
+  "allergy to animals": {
+    "mapping": 408,
+    "gender_specific": "both"
+  },
+  "orthostatic hypotension": {
+    "mapping": 409,
+    "gender_specific": "both"
+  },
+  "obstructive sleep apnea (osa)": {
+    "mapping": 410,
+    "gender_specific": "both"
+  },
+  "hypokalemia": {
+    "mapping": 411,
+    "gender_specific": "both"
+  },
+  "psoriasis": {
+    "mapping": 412,
+    "gender_specific": "both"
+  },
+  "dislocation of the shoulder": {
+    "mapping": 413,
+    "gender_specific": "both"
+  },
+  "intussusception": {
+    "mapping": 414,
+    "gender_specific": "both"
+  },
+  "cervicitis": {
+    "mapping": 415,
+    "gender_specific": "female"
+  },
+  "abscess of the pharynx": {
+    "mapping": 416,
+    "gender_specific": "both"
+  },
+  "primary thrombocythemia": {
+    "mapping": 417,
+    "gender_specific": "both"
+  },
+  "arthritis of the hip": {
+    "mapping": 418,
+    "gender_specific": "both"
+  },
+  "decubitus ulcer": {
+    "mapping": 419,
+    "gender_specific": "both"
+  },
+  "hypernatremia": {
+    "mapping": 420,
+    "gender_specific": "both"
+  },
+  "sensorineural hearing loss": {
+    "mapping": 421,
+    "gender_specific": "both"
+  },
+  "chronic ulcer": {
+    "mapping": 422,
+    "gender_specific": "both"
+  },
+  "osteoporosis": {
+    "mapping": 423,
+    "gender_specific": "both"
+  },
+  "ileus": {
+    "mapping": 424,
+    "gender_specific": "both"
+  },
+  "sickle cell crisis": {
+    "mapping": 425,
+    "gender_specific": "both"
+  },
+  "urethritis": {
+    "mapping": 426,
+    "gender_specific": "both"
+  },
+  "prostatitis": {
+    "mapping": 427,
+    "gender_specific": "male"
+  },
+  "otitis externa (swimmer's ear)": {
+    "mapping": 428,
+    "gender_specific": "both"
+  },
+  "poisoning due to anticonvulsants": {
+    "mapping": 429,
+    "gender_specific": "both"
+  },
+  "testicular torsion": {
+    "mapping": 430,
+    "gender_specific": "male"
+  },
+  "tricuspid valve disease": {
+    "mapping": 431,
+    "gender_specific": "both"
+  },
+  "urethral stricture": {
+    "mapping": 432,
+    "gender_specific": "both"
+  },
+  "vitamin d deficiency": {
+    "mapping": 433,
+    "gender_specific": "both"
+  },
+  "hydatidiform mole": {
+    "mapping": 434,
+    "gender_specific": "female"
+  },
+  "pain disorder affecting the neck": {
+    "mapping": 435,
+    "gender_specific": "both"
+  },
+  "tuberculosis": {
+    "mapping": 436,
+    "gender_specific": "both"
+  },
+  "pelvic fistula": {
+    "mapping": 437,
+    "gender_specific": "both"
+  },
+  "acute bronchiolitis": {
+    "mapping": 438,
+    "gender_specific": "both"
+  },
+  "presbyopia": {
+    "mapping": 439,
+    "gender_specific": "both"
+  },
+  "dementia": {
+    "mapping": 440,
+    "gender_specific": "both"
+  },
+  "insect bite": {
+    "mapping": 441,
+    "gender_specific": "both"
+  },
+  "paroxysmal ventricular tachycardia": {
+    "mapping": 442,
+    "gender_specific": "both"
+  },
+  "congenital heart defect": {
+    "mapping": 443,
+    "gender_specific": "both"
+  },
+  "connective tissue disorder": {
+    "mapping": 444,
+    "gender_specific": "both"
+  },
+  "foreign body in the eye": {
+    "mapping": 445,
+    "gender_specific": "both"
+  },
+  "poisoning due to gas": {
+    "mapping": 446,
+    "gender_specific": "both"
+  },
+  "pyogenic skin infection": {
+    "mapping": 447,
+    "gender_specific": "both"
+  },
+  "endometrial hyperplasia": {
+    "mapping": 448,
+    "gender_specific": "female"
+  },
+  "acanthosis nigricans": {
+    "mapping": 449,
+    "gender_specific": "both"
+  },
+  "central atherosclerosis": {
+    "mapping": 450,
+    "gender_specific": "both"
+  },
+  "viral exanthem": {
+    "mapping": 451,
+    "gender_specific": "both"
+  },
+  "noninfectious gastroenteritis": {
+    "mapping": 452,
+    "gender_specific": "both"
+  },
+  "benign prostatic hyperplasia (bph)": {
+    "mapping": 453,
+    "gender_specific": "male"
+  },
+  "menopause": {
+    "mapping": 454,
+    "gender_specific": "female"
+  },
+  "primary immunodeficiency": {
+    "mapping": 455,
+    "gender_specific": "both"
+  },
+  "ovarian cancer": {
+    "mapping": 456,
+    "gender_specific": "female"
+  },
+  "cataract": {
+    "mapping": 457,
+    "gender_specific": "both"
+  },
+  "dislocation of the hip": {
+    "mapping": 458,
+    "gender_specific": "both"
+  },
+  "spinal stenosis": {
+    "mapping": 459,
+    "gender_specific": "both"
+  },
+  "intestinal obstruction": {
+    "mapping": 460,
+    "gender_specific": "both"
+  },
+  "heart contusion": {
+    "mapping": 461,
+    "gender_specific": "both"
+  },
+  "congenital malformation syndrome": {
+    "mapping": 462,
+    "gender_specific": "both"
+  },
+  "sporotrichosis": {
+    "mapping": 463,
+    "gender_specific": "both"
+  },
+  "lymphangitis": {
+    "mapping": 464,
+    "gender_specific": "both"
+  },
+  "wernicke korsakoff syndrome": {
+    "mapping": 465,
+    "gender_specific": "both"
+  },
+  "intestinal disease": {
+    "mapping": 466,
+    "gender_specific": "both"
+  },
+  "acute bronchitis": {
+    "mapping": 467,
+    "gender_specific": "both"
+  },
+  "persistent vomiting of unknown cause": {
+    "mapping": 468,
+    "gender_specific": "both"
+  },
+  "open wound of the foot": {
+    "mapping": 469,
+    "gender_specific": "both"
+  },
+  "myocarditis": {
+    "mapping": 470,
+    "gender_specific": "both"
+  },
+  "preeclampsia": {
+    "mapping": 471,
+    "gender_specific": "female"
+  },
+  "ischemic heart disease": {
+    "mapping": 472,
+    "gender_specific": "both"
+  },
+  "neurofibromatosis": {
+    "mapping": 473,
+    "gender_specific": "both"
+  },
+  "chickenpox": {
+    "mapping": 474,
+    "gender_specific": "both"
+  },
+  "pancreatic cancer": {
+    "mapping": 475,
+    "gender_specific": "both"
+  },
+  "neuropathy due to drugs": {
+    "mapping": 476,
+    "gender_specific": "both"
+  },
+  "croup": {
+    "mapping": 477,
+    "gender_specific": "both"
+  },
+  "idiopathic excessive menstruation": {
+    "mapping": 478,
+    "gender_specific": "female"
+  },
+  "amblyopia": {
+    "mapping": 479,
+    "gender_specific": "both"
+  },
+  "meckel diverticulum": {
+    "mapping": 480,
+    "gender_specific": "both"
+  },
+  "dislocation of the wrist": {
+    "mapping": 481,
+    "gender_specific": "both"
+  },
+  "ear drum damage": {
+    "mapping": 482,
+    "gender_specific": "both"
+  },
+  "erectile dysfunction": {
+    "mapping": 483,
+    "gender_specific": "male"
+  },
+  "temporary or benign blood in urine": {
+    "mapping": 484,
+    "gender_specific": "both"
+  },
+  "kidney disease due to longstanding hypertension": {
+    "mapping": 485,
+    "gender_specific": "both"
+  },
+  "chondromalacia of the patella": {
+    "mapping": 486,
+    "gender_specific": "both"
+  },
+  "onychomycosis": {
+    "mapping": 487,
+    "gender_specific": "both"
+  },
+  "urethral disorder": {
+    "mapping": 488,
+    "gender_specific": "both"
+  },
+  "lyme disease": {
+    "mapping": 489,
+    "gender_specific": "both"
+  },
+  "iron deficiency anemia": {
+    "mapping": 490,
+    "gender_specific": "both"
+  },
+  "acute respiratory distress syndrome (ards)": {
+    "mapping": 491,
+    "gender_specific": "both"
+  },
+  "toxic multinodular goiter": {
+    "mapping": 492,
+    "gender_specific": "both"
+  },
+  "open wound of the finger": {
+    "mapping": 493,
+    "gender_specific": "both"
+  },
+  "autonomic nervous system disorder": {
+    "mapping": 494,
+    "gender_specific": "both"
+  },
+  "psychosexual disorder": {
+    "mapping": 495,
+    "gender_specific": "both"
+  },
+  "anemia": {
+    "mapping": 496,
+    "gender_specific": "both"
+  },
+  "tendinitis": {
+    "mapping": 497,
+    "gender_specific": "both"
+  },
+  "common cold": {
+    "mapping": 498,
+    "gender_specific": "both"
+  },
+  "amyotrophic lateral sclerosis (als)": {
+    "mapping": 499,
+    "gender_specific": "both"
+  },
+  "central retinal artery or vein occlusion": {
+    "mapping": 500,
+    "gender_specific": "both"
+  },
+  "paroxysmal supraventricular tachycardia": {
+    "mapping": 501,
+    "gender_specific": "both"
+  },
+  "venous insufficiency": {
+    "mapping": 502,
+    "gender_specific": "both"
+  },
+  "trichomonas infection": {
+    "mapping": 503,
+    "gender_specific": "both"
+  },
+  "acne": {
+    "mapping": 504,
+    "gender_specific": "both"
+  },
+  "depression": {
+    "mapping": 505,
+    "gender_specific": "both"
+  },
+  "drug abuse": {
+    "mapping": 506,
+    "gender_specific": "both"
+  },
+  "urinary tract obstruction": {
+    "mapping": 507,
+    "gender_specific": "both"
+  },
+  "diabetes insipidus": {
+    "mapping": 508,
+    "gender_specific": "both"
+  },
+  "iridocyclitis": {
+    "mapping": 509,
+    "gender_specific": "both"
+  },
+  "varicocele of the testicles": {
+    "mapping": 510,
+    "gender_specific": "male"
+  },
+  "irritable bowel syndrome": {
+    "mapping": 511,
+    "gender_specific": "both"
+  },
+  "fracture of the foot": {
+    "mapping": 512,
+    "gender_specific": "both"
+  },
+  "ovarian cyst": {
+    "mapping": 513,
+    "gender_specific": "female"
+  },
+  "chlamydia": {
+    "mapping": 514,
+    "gender_specific": "both"
+  },
+  "parasitic disease": {
+    "mapping": 515,
+    "gender_specific": "both"
+  },
+  "fracture of the jaw": {
+    "mapping": 516,
+    "gender_specific": "both"
+  },
+  "lipoma": {
+    "mapping": 517,
+    "gender_specific": "both"
+  },
+  "female genitalia infection": {
+    "mapping": 518,
+    "gender_specific": "female"
+  },
+  "pulmonary hypertension": {
+    "mapping": 519,
+    "gender_specific": "both"
+  },
+  "thyroid nodule": {
+    "mapping": 520,
+    "gender_specific": "both"
+  },
+  "broken tooth": {
+    "mapping": 521,
+    "gender_specific": "both"
+  },
+  "dumping syndrome": {
+    "mapping": 522,
+    "gender_specific": "both"
+  },
+  "lymphadenitis": {
+    "mapping": 523,
+    "gender_specific": "both"
+  },
+  "injury to the face": {
+    "mapping": 524,
+    "gender_specific": "both"
+  },
+  "aortic valve disease": {
+    "mapping": 525,
+    "gender_specific": "both"
+  },
+  "rheumatoid arthritis": {
+    "mapping": 526,
+    "gender_specific": "both"
+  },
+  "spermatocele": {
+    "mapping": 527,
+    "gender_specific": "male"
+  },
+  "impetigo": {
+    "mapping": 528,
+    "gender_specific": "both"
+  },
+  "anal fistula": {
+    "mapping": 529,
+    "gender_specific": "both"
+  },
+  "hypothermia": {
+    "mapping": 530,
+    "gender_specific": "both"
+  },
+  "oppositional disorder": {
+    "mapping": 531,
+    "gender_specific": "both"
+  },
+  "migraine": {
+    "mapping": 532,
+    "gender_specific": "both"
+  },
+  "diabetic peripheral neuropathy": {
+    "mapping": 533,
+    "gender_specific": "both"
+  },
+  "testicular disorder": {
+    "mapping": 534,
+    "gender_specific": "male"
+  },
+  "gestational diabetes": {
+    "mapping": 535,
+    "gender_specific": "female"
+  },
+  "hidradenitis suppurativa": {
+    "mapping": 536,
+    "gender_specific": "both"
+  },
+  "valley fever": {
+    "mapping": 537,
+    "gender_specific": "both"
+  },
+  "conjunctivitis due to bacteria": {
+    "mapping": 538,
+    "gender_specific": "both"
+  },
+  "lewy body dementia": {
+    "mapping": 539,
+    "gender_specific": "both"
+  },
+  "multiple myeloma": {
+    "mapping": 540,
+    "gender_specific": "both"
+  },
+  "head injury": {
+    "mapping": 541,
+    "gender_specific": "both"
+  },
+  "ascending cholangitis": {
+    "mapping": 542,
+    "gender_specific": "both"
+  },
+  "idiopathic irregular menstrual cycle": {
+    "mapping": 543,
+    "gender_specific": "female"
+  },
+  "interstitial lung disease": {
+    "mapping": 544,
+    "gender_specific": "both"
+  },
+  "mononeuritis": {
+    "mapping": 545,
+    "gender_specific": "both"
+  },
+  "malaria": {
+    "mapping": 546,
+    "gender_specific": "both"
+  },
+  "somatization disorder": {
+    "mapping": 547,
+    "gender_specific": "both"
+  },
+  "hypovolemia": {
+    "mapping": 548,
+    "gender_specific": "both"
+  },
+  "schizophrenia": {
+    "mapping": 549,
+    "gender_specific": "both"
+  },
+  "knee ligament or meniscus tear": {
+    "mapping": 550,
+    "gender_specific": "both"
+  },
+  "endocarditis": {
+    "mapping": 551,
+    "gender_specific": "both"
+  },
+  "sepsis": {
+    "mapping": 552,
+    "gender_specific": "both"
+  },
+  "heat stroke": {
+    "mapping": 553,
+    "gender_specific": "both"
+  },
+  "cholecystitis": {
+    "mapping": 554,
+    "gender_specific": "both"
+  },
+  "cardiac arrest": {
+    "mapping": 555,
+    "gender_specific": "both"
+  },
+  "cardiomyopathy": {
+    "mapping": 556,
+    "gender_specific": "both"
+  },
+  "social phobia": {
+    "mapping": 557,
+    "gender_specific": "both"
+  },
+  "meningitis": {
+    "mapping": 558,
+    "gender_specific": "both"
+  },
+  "spherocytosis": {
+    "mapping": 559,
+    "gender_specific": "both"
+  },
+  "hormone disorder": {
+    "mapping": 560,
+    "gender_specific": "both"
+  },
+  "raynaud disease": {
+    "mapping": 561,
+    "gender_specific": "both"
+  },
+  "reactive arthritis": {
+    "mapping": 562,
+    "gender_specific": "both"
+  },
+  "scabies": {
+    "mapping": 563,
+    "gender_specific": "both"
+  },
+  "ear wax impaction": {
+    "mapping": 564,
+    "gender_specific": "both"
+  },
+  "hypertension of pregnancy": {
+    "mapping": 565,
+    "gender_specific": "female"
+  },
+  "peripheral arterial embolism": {
+    "mapping": 566,
+    "gender_specific": "both"
+  },
+  "rosacea": {
+    "mapping": 567,
+    "gender_specific": "both"
+  },
+  "fracture of the skull": {
+    "mapping": 568,
+    "gender_specific": "both"
+  },
+  "uveitis": {
+    "mapping": 569,
+    "gender_specific": "both"
+  },
+  "fracture of the facial bones": {
+    "mapping": 570,
+    "gender_specific": "both"
+  },
+  "tracheitis": {
+    "mapping": 571,
+    "gender_specific": "both"
+  },
+  "jaw disorder": {
+    "mapping": 572,
+    "gender_specific": "both"
+  },
+  "perirectal infection": {
+    "mapping": 573,
+    "gender_specific": "both"
+  },
+  "breast cyst": {
+    "mapping": 574,
+    "gender_specific": "both"
+  },
+  "post-traumatic stress disorder (ptsd)": {
+    "mapping": 575,
+    "gender_specific": "both"
+  },
+  "kidney cancer": {
+    "mapping": 576,
+    "gender_specific": "both"
+  },
+  "vulvar cancer": {
+    "mapping": 577,
+    "gender_specific": "female"
+  },
+  "blepharitis": {
+    "mapping": 578,
+    "gender_specific": "both"
+  },
+  "celiac disease": {
+    "mapping": 579,
+    "gender_specific": "both"
+  },
+  "cystitis": {
+    "mapping": 580,
+    "gender_specific": "both"
+  },
+  "sickle cell anemia": {
+    "mapping": 581,
+    "gender_specific": "both"
+  },
+  "subconjunctival hemorrhage": {
+    "mapping": 582,
+    "gender_specific": "both"
+  },
+  "hemorrhoids": {
+    "mapping": 583,
+    "gender_specific": "both"
+  },
+  "contact dermatitis": {
+    "mapping": 584,
+    "gender_specific": "both"
+  },
+  "sinus bradycardia": {
+    "mapping": 585,
+    "gender_specific": "both"
+  },
+  "high blood pressure": {
+    "mapping": 586,
+    "gender_specific": "both"
+  },
+  "pelvic inflammatory disease": {
+    "mapping": 587,
+    "gender_specific": "female"
+  },
+  "liver disease": {
+    "mapping": 588,
+    "gender_specific": "both"
+  },
+  "chronic constipation": {
+    "mapping": 589,
+    "gender_specific": "both"
+  },
+  "thyroid cancer": {
+    "mapping": 590,
+    "gender_specific": "both"
+  },
+  "flu": {
+    "mapping": 591,
+    "gender_specific": "both"
+  },
+  "friedrich ataxia": {
+    "mapping": 592,
+    "gender_specific": "both"
+  },
+  "tic (movement) disorder": {
+    "mapping": 593,
+    "gender_specific": "both"
+  },
+  "skin polyp": {
+    "mapping": 594,
+    "gender_specific": "both"
+  },
+  "brachial neuritis": {
+    "mapping": 595,
+    "gender_specific": "both"
+  },
+  "cervical cancer": {
+    "mapping": 596,
+    "gender_specific": "female"
+  },
+  "adrenal adenoma": {
+    "mapping": 597,
+    "gender_specific": "both"
+  },
+  "esophagitis": {
+    "mapping": 598,
+    "gender_specific": "both"
+  },
+  "gas gangrene": {
+    "mapping": 599,
+    "gender_specific": "both"
+  },
+  "yeast infection": {
+    "mapping": 600,
+    "gender_specific": "both"
+  },
+  "spina bifida": {
+    "mapping": 601,
+    "gender_specific": "both"
+  },
+  "drug poisoning due to medication": {
+    "mapping": 602,
+    "gender_specific": "both"
+  },
+  "alcoholic liver disease": {
+    "mapping": 603,
+    "gender_specific": "both"
+  },
+  "malignant hypertension": {
+    "mapping": 604,
+    "gender_specific": "both"
+  },
+  "diverticulitis": {
+    "mapping": 605,
+    "gender_specific": "both"
+  },
+  "moyamoya disease": {
+    "mapping": 606,
+    "gender_specific": "both"
+  },
+  "heat exhaustion": {
+    "mapping": 607,
+    "gender_specific": "both"
+  },
+  "psychotic disorder": {
+    "mapping": 608,
+    "gender_specific": "both"
+  },
+  "frostbite": {
+    "mapping": 609,
+    "gender_specific": "both"
+  },
+  "atrophy of the corpus cavernosum": {
+    "mapping": 610,
+    "gender_specific": "male"
+  },
+  "smoking or tobacco addiction": {
+    "mapping": 611,
+    "gender_specific": "both"
+  },
+  "sprain or strain": {
+    "mapping": 612,
+    "gender_specific": "both"
+  },
+  "essential tremor": {
+    "mapping": 613,
+    "gender_specific": "both"
+  },
+  "open wound of the ear": {
+    "mapping": 614,
+    "gender_specific": "both"
+  },
+  "foreign body in the nose": {
+    "mapping": 615,
+    "gender_specific": "both"
+  },
+  "idiopathic painful menstruation": {
+    "mapping": 616,
+    "gender_specific": "female"
+  },
+  "down syndrome": {
+    "mapping": 617,
+    "gender_specific": "both"
+  },
+  "idiopathic infrequent menstruation": {
+    "mapping": 618,
+    "gender_specific": "female"
+  },
+  "pneumothorax": {
+    "mapping": 619,
+    "gender_specific": "both"
+  },
+  "de quervain disease": {
+    "mapping": 620,
+    "gender_specific": "both"
+  },
+  "fracture of the vertebra": {
+    "mapping": 621,
+    "gender_specific": "both"
+  },
+  "human immunodeficiency virus infection (hiv)": {
+    "mapping": 622,
+    "gender_specific": "both"
+  },
+  "mumps": {
+    "mapping": 623,
+    "gender_specific": "both"
+  },
+  "subarachnoid hemorrhage": {
+    "mapping": 624,
+    "gender_specific": "both"
+  },
+  "acute fatty liver of pregnancy (aflp)": {
+    "mapping": 625,
+    "gender_specific": "female"
+  },
+  "ectropion": {
+    "mapping": 626,
+    "gender_specific": "both"
+  },
+  "scar": {
+    "mapping": 627,
+    "gender_specific": "both"
+  },
+  "lactose intolerance": {
+    "mapping": 628,
+    "gender_specific": "both"
+  },
+  "eustachian tube dysfunction (ear disorder)": {
+    "mapping": 629,
+    "gender_specific": "both"
+  },
+  "appendicitis": {
+    "mapping": 630,
+    "gender_specific": "both"
+  },
+  "graves disease": {
+    "mapping": 631,
+    "gender_specific": "both"
+  },
+  "dissociative disorder": {
+    "mapping": 632,
+    "gender_specific": "both"
+  },
+  "open wound of the face": {
+    "mapping": 633,
+    "gender_specific": "both"
+  },
+  "dislocation of the vertebra": {
+    "mapping": 634,
+    "gender_specific": "both"
+  },
+  "phimosis": {
+    "mapping": 635,
+    "gender_specific": "male"
+  },
+  "hyperemesis gravidarum": {
+    "mapping": 636,
+    "gender_specific": "female"
+  },
+  "pregnancy": {
+    "mapping": 637,
+    "gender_specific": "female"
+  },
+  "thalassemia": {
+    "mapping": 638,
+    "gender_specific": "both"
+  },
+  "placenta previa": {
+    "mapping": 639,
+    "gender_specific": "female"
+  },
+  "epidural hemorrhage": {
+    "mapping": 640,
+    "gender_specific": "both"
+  },
+  "septic arthritis": {
+    "mapping": 641,
+    "gender_specific": "both"
+  },
+  "athlete's foot": {
+    "mapping": 642,
+    "gender_specific": "both"
+  },
+  "pleural effusion": {
+    "mapping": 643,
+    "gender_specific": "both"
+  },
+  "aphakia": {
+    "mapping": 644,
+    "gender_specific": "both"
+  },
+  "vulvar disorder": {
+    "mapping": 645,
+    "gender_specific": "female"
+  },
+  "sialoadenitis": {
+    "mapping": 646,
+    "gender_specific": "both"
+  },
+  "gynecomastia": {
+    "mapping": 647,
+    "gender_specific": "male"
+  },
+  "urinary tract infection": {
+    "mapping": 648,
+    "gender_specific": "both"
+  },
+  "histoplasmosis": {
+    "mapping": 649,
+    "gender_specific": "both"
+  },
+  "erythema multiforme": {
+    "mapping": 650,
+    "gender_specific": "both"
+  },
+  "scoliosis": {
+    "mapping": 651,
+    "gender_specific": "both"
+  },
+  "bunion": {
+    "mapping": 652,
+    "gender_specific": "both"
+  },
+  "arrhythmia": {
+    "mapping": 653,
+    "gender_specific": "both"
+  },
+  "trigeminal neuralgia": {
+    "mapping": 654,
+    "gender_specific": "both"
+  },
+  "ankylosing spondylitis": {
+    "mapping": 655,
+    "gender_specific": "both"
+  },
+  "peripheral nerve disorder": {
+    "mapping": 656,
+    "gender_specific": "both"
+  },
+  "sebaceous cyst": {
+    "mapping": 657,
+    "gender_specific": "both"
+  },
+  "poisoning due to antipsychotics": {
+    "mapping": 658,
+    "gender_specific": "both"
+  },
+  "neurosis": {
+    "mapping": 659,
+    "gender_specific": "both"
+  },
+  "prostate cancer": {
+    "mapping": 660,
+    "gender_specific": "male"
+  },
+  "cerebral edema": {
+    "mapping": 661,
+    "gender_specific": "both"
+  },
+  "dislocation of the finger": {
+    "mapping": 662,
+    "gender_specific": "both"
+  },
+  "birth trauma": {
+    "mapping": 663,
+    "gender_specific": "both"
+  },
+  "chronic pancreatitis": {
+    "mapping": 664,
+    "gender_specific": "both"
+  },
+  "hematoma": {
+    "mapping": 665,
+    "gender_specific": "both"
+  },
+  "carcinoid syndrome": {
+    "mapping": 666,
+    "gender_specific": "both"
+  },
+  "open wound of the head": {
+    "mapping": 667,
+    "gender_specific": "both"
+  },
+  "seborrheic keratosis": {
+    "mapping": 668,
+    "gender_specific": "both"
+  },
+  "burn": {
+    "mapping": 669,
+    "gender_specific": "both"
+  },
+  "spontaneous abortion": {
+    "mapping": 670,
+    "gender_specific": "female"
+  },
+  "genital herpes": {
+    "mapping": 671,
+    "gender_specific": "both"
+  },
+  "adjustment reaction": {
+    "mapping": 672,
+    "gender_specific": "both"
+  },
+  "gallstone": {
+    "mapping": 673,
+    "gender_specific": "both"
+  },
+  "multiple sclerosis": {
+    "mapping": 674,
+    "gender_specific": "both"
+  },
+  "zenker diverticulum": {
+    "mapping": 675,
+    "gender_specific": "both"
+  },
+  "fracture of the pelvis": {
+    "mapping": 676,
+    "gender_specific": "both"
+  },
+  "pneumoconiosis": {
+    "mapping": 677,
+    "gender_specific": "both"
+  },
+  "hyperlipidemia": {
+    "mapping": 678,
+    "gender_specific": "both"
+  },
+  "ulcerative colitis": {
+    "mapping": 679,
+    "gender_specific": "both"
+  },
+  "male genitalia infection": {
+    "mapping": 680,
+    "gender_specific": "male"
+  },
+  "hpv": {
+    "mapping": 681,
+    "gender_specific": "both"
+  },
+  "angina": {
+    "mapping": 682,
+    "gender_specific": "both"
+  },
+  "injury to the spinal cord": {
+    "mapping": 683,
+    "gender_specific": "both"
+  },
+  "nasal polyp": {
+    "mapping": 684,
+    "gender_specific": "both"
+  },
+  "lichen simplex": {
+    "mapping": 685,
+    "gender_specific": "both"
+  },
+  "trichiasis": {
+    "mapping": 686,
+    "gender_specific": "both"
+  },
+  "acariasis": {
+    "mapping": 687,
+    "gender_specific": "both"
+  },
+  "colorectal cancer": {
+    "mapping": 688,
+    "gender_specific": "both"
+  },
+  "skin pigmentation disorder": {
+    "mapping": 689,
+    "gender_specific": "both"
+  },
+  "factitious disorder": {
+    "mapping": 690,
+    "gender_specific": "both"
+  },
+  "lymphogranuloma venereum": {
+    "mapping": 691,
+    "gender_specific": "both"
+  },
+  "galactorrhea of unknown cause": {
+    "mapping": 692,
+    "gender_specific": "both"
+  },
+  "g6pd enzyme deficiency": {
+    "mapping": 693,
+    "gender_specific": "both"
+  },
+  "nerve impingement near the shoulder": {
+    "mapping": 694,
+    "gender_specific": "both"
+  },
+  "toxoplasmosis": {
+    "mapping": 695,
+    "gender_specific": "both"
+  },
+  "fibroadenoma": {
+    "mapping": 696,
+    "gender_specific": "female"
+  },
+  "open wound of the hand": {
+    "mapping": 697,
+    "gender_specific": "both"
+  },
+  "missed abortion": {
+    "mapping": 698,
+    "gender_specific": "female"
+  },
+  "diabetic ketoacidosis": {
+    "mapping": 699,
+    "gender_specific": "both"
+  },
+  "granuloma inguinale": {
+    "mapping": 700,
+    "gender_specific": "both"
+  },
+  "obsessive compulsive disorder (ocd)": {
+    "mapping": 701,
+    "gender_specific": "both"
+  },
+  "injury of the ankle": {
+    "mapping": 702,
+    "gender_specific": "both"
+  },
+  "hyponatremia": {
+    "mapping": 703,
+    "gender_specific": "both"
+  },
+  "stricture of the esophagus": {
+    "mapping": 704,
+    "gender_specific": "both"
+  },
+  "fracture of the ankle": {
+    "mapping": 705,
+    "gender_specific": "both"
+  },
+  "soft tissue sarcoma": {
+    "mapping": 706,
+    "gender_specific": "both"
+  },
+  "bone disorder": {
+    "mapping": 707,
+    "gender_specific": "both"
+  },
+  "epilepsy": {
+    "mapping": 708,
+    "gender_specific": "both"
+  },
+  "personality disorder": {
+    "mapping": 709,
+    "gender_specific": "both"
+  },
+  "shingles (herpes zoster)": {
+    "mapping": 710,
+    "gender_specific": "both"
+  },
+  "tourette syndrome": {
+    "mapping": 711,
+    "gender_specific": "both"
+  },
+  "avascular necrosis": {
+    "mapping": 712,
+    "gender_specific": "both"
+  },
+  "strep throat": {
+    "mapping": 713,
+    "gender_specific": "both"
+  },
+  "spinocerebellar ataxia": {
+    "mapping": 714,
+    "gender_specific": "both"
+  },
+  "osteomyelitis": {
+    "mapping": 715,
+    "gender_specific": "both"
+  },
+  "sjogren syndrome": {
+    "mapping": 716,
+    "gender_specific": "both"
+  },
+  "adhesive capsulitis of the shoulder": {
+    "mapping": 717,
+    "gender_specific": "both"
+  },
+  "viral hepatitis": {
+    "mapping": 718,
+    "gender_specific": "both"
+  },
+  "tonsillar hypertrophy": {
+    "mapping": 719,
+    "gender_specific": "both"
+  },
+  "gastritis": {
+    "mapping": 720,
+    "gender_specific": "both"
+  },
+  "skin cancer": {
+    "mapping": 721,
+    "gender_specific": "both"
+  },
+  "rheumatic fever": {
+    "mapping": 722,
+    "gender_specific": "both"
+  },
+  "aphthous ulcer": {
+    "mapping": 723,
+    "gender_specific": "both"
+  },
+  "tonsillitis": {
+    "mapping": 724,
+    "gender_specific": "both"
+  },
+  "intestinal cancer": {
+    "mapping": 725,
+    "gender_specific": "both"
+  },
+  "rocky mountain spotted fever": {
+    "mapping": 726,
+    "gender_specific": "both"
+  },
+  "stomach cancer": {
+    "mapping": 727,
+    "gender_specific": "both"
+  },
+  "developmental disability": {
+    "mapping": 728,
+    "gender_specific": "both"
+  },
+  "acute stress reaction": {
+    "mapping": 729,
+    "gender_specific": "both"
+  },
+  "delirium": {
+    "mapping": 730,
+    "gender_specific": "both"
+  },
+  "callus": {
+    "mapping": 731,
+    "gender_specific": "both"
+  },
+  "guillain barre syndrome": {
+    "mapping": 732,
+    "gender_specific": "both"
+  },
+  "lumbago": {
+    "mapping": 733,
+    "gender_specific": "both"
+  },
+  "deviated nasal septum": {
+    "mapping": 734,
+    "gender_specific": "both"
+  },
+  "hemangioma": {
+    "mapping": 735,
+    "gender_specific": "both"
+  },
+  "peripheral arterial disease": {
+    "mapping": 736,
+    "gender_specific": "both"
+  },
+  "chronic back pain": {
+    "mapping": 737,
+    "gender_specific": "both"
+  },
+  "heart failure": {
+    "mapping": 738,
+    "gender_specific": "both"
+  },
+  "conjunctivitis": {
+    "mapping": 739,
+    "gender_specific": "both"
+  },
+  "herniated disk": {
+    "mapping": 740,
+    "gender_specific": "both"
+  },
+  "rhabdomyolysis": {
+    "mapping": 741,
+    "gender_specific": "both"
+  },
+  "breast infection (mastitis)": {
+    "mapping": 742,
+    "gender_specific": "female"
+  },
+  "abdominal aortic aneurysm": {
+    "mapping": 743,
+    "gender_specific": "both"
+  },
+  "pulmonary embolism": {
+    "mapping": 744,
+    "gender_specific": "both"
+  },
+  "conduct disorder": {
+    "mapping": 745,
+    "gender_specific": "both"
+  },
+  "mastectomy": {
+    "mapping": 746,
+    "gender_specific": "both"
+  },
+  "epididymitis": {
+    "mapping": 747,
+    "gender_specific": "male"
+  },
+  "premature rupture of amniotic membrane": {
+    "mapping": 748,
+    "gender_specific": "female"
+  },
+  "molluscum contagiosum": {
+    "mapping": 749,
+    "gender_specific": "both"
+  },
+  "necrotizing fasciitis": {
+    "mapping": 750,
+    "gender_specific": "both"
+  },
+  "benign vaginal discharge (leukorrhea)": {
+    "mapping": 751,
+    "gender_specific": "female"
+  },
+  "bladder obstruction": {
+    "mapping": 752,
+    "gender_specific": "both"
+  },
+  "melanoma": {
+    "mapping": 753,
+    "gender_specific": "both"
+  },
+  "cervical disorder": {
+    "mapping": 754,
+    "gender_specific": "female"
+  },
+  "laryngitis": {
+    "mapping": 755,
+    "gender_specific": "both"
+  },
+  "dyshidrosis": {
+    "mapping": 756,
+    "gender_specific": "both"
+  },
+  "poisoning due to opioids": {
+    "mapping": 757,
+    "gender_specific": "both"
+  },
+  "diaper rash": {
+    "mapping": 758,
+    "gender_specific": "both"
+  },
+  "lichen planus": {
+    "mapping": 759,
+    "gender_specific": "both"
+  },
+  "gastroduodenal ulcer": {
+    "mapping": 760,
+    "gender_specific": "both"
+  },
+  "inguinal hernia": {
+    "mapping": 761,
+    "gender_specific": "both"
+  },
+  "eczema": {
+    "mapping": 762,
+    "gender_specific": "both"
+  },
+  "asperger syndrome": {
+    "mapping": 763,
+    "gender_specific": "both"
+  },
+  "mucositis": {
+    "mapping": 764,
+    "gender_specific": "both"
+  },
+  "paronychia": {
+    "mapping": 765,
+    "gender_specific": "both"
+  },
+  "open wound of the jaw": {
+    "mapping": 766,
+    "gender_specific": "both"
+  },
+  "white blood cell disease": {
+    "mapping": 767,
+    "gender_specific": "both"
+  },
+  "kaposi sarcoma": {
+    "mapping": 768,
+    "gender_specific": "both"
+  },
+  "spondylolisthesis": {
+    "mapping": 769,
+    "gender_specific": "both"
+  },
+  "pseudotumor cerebri": {
+    "mapping": 770,
+    "gender_specific": "both"
+  },
+  "conjunctivitis due to virus": {
+    "mapping": 771,
+    "gender_specific": "both"
+  },
+  "open wound of the nose": {
+    "mapping": 772,
+    "gender_specific": "both"
+  }
+}
