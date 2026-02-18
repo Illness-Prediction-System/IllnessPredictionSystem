@@ -23,7 +23,7 @@ def create_windrose_in_frame(frame, speeds):
     ax.set_xticklabels([])
     ax.set_yticklabels([])
     ax.tick_params(axis='both', which='both', length=0)
-    ax.set_ylim(0, 1.05)
+    ax.set_ylim(0, speeds[0])
     
     canvas = FigureCanvas(fig)
     if frame.layout() is None:
